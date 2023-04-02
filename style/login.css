@@ -1,0 +1,57 @@
+.container {
+    width:40%;
+    padding:15% 30% 15% 30%;
+}
+
+.container h1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family:"Trebuchet MS";
+    font-weight: 400;
+}
+
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+}
+
+form label {
+    font-family:"Trebuchet MS";
+    font-weight: 100;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+
+input[type=submit] {
+    background-color: #926AA6;
+    color: white;
+    border: 3px solid #926AA6;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: #372640;
+    color: #fff;
+    border: 3px solid #372640;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:active {
+    transform: translateY(2px);
+}
